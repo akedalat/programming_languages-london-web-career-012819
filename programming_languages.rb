@@ -6,7 +6,7 @@ new_hash = {}
         #binding.pry
       new_hash[name] ||= type
 
-      new_hash[name][:style] = []
+      new_hash[name][:style] ||= []
       new_hash[name][:style] << style
       #binding.pry
     end
