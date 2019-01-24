@@ -11,6 +11,6 @@ new_hash = {}
       #binding.pry
     end
   end
-binding.pty
+binding.pry
 return new_hash
 end
