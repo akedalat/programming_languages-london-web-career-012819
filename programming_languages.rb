@@ -8,9 +8,8 @@ new_hash = {}
 
       new_hash[name][:style] ||= []
       new_hash[name][:style] << style
-      #binding.pry
     end
   end
-binding.pry
+#binding.pry
 return new_hash
 end
