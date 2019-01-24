@@ -14,7 +14,7 @@ new_hash = {}
   languages.each do |style, language|
       language.each do |name, type|
         #binding.pry
-        
+
       new_hash[name] = type
 
       new_hash[name][:style] ||= []
